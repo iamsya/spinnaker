@@ -4,6 +4,7 @@ metadata:
   name: awesome-media-backend-deployment
   labels:
     app: awesome-media-backend
+  namespace: sya
 spec:
   replicas: 1
   selector:
